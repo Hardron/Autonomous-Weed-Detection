@@ -1,5 +1,5 @@
 <launch>
 <node pkg="autonomous_weeding" type="camera_parser.py" name="camera_parser"/>
 <node pkg="autonomous_weeding" type="vision_handler.py" name="vision_handler"/>
-<node pkg="autonomous_weeding" type=movebase_client.py" name="movebase_client_py"/>
+<node pkg="autonomous_weeding" type="movebase_client.py" name="movebase_client_py"/>
 </launch>

@@ -1,0 +1,8 @@
+prefix=/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/install
+
+Name: autonomous_weeding
+Description: Description of autonomous_weeding
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

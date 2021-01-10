@@ -1,0 +1,65 @@
+{
+    "goal1" : {
+        "position" : {"x": -6.75, "y": -3.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.0, "w":1.0}
+    },
+
+    "goal2" : {
+        "position" : {"x": 6.75, "y": -3.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.715, "w":0.669}
+    },
+    "goal3" : {
+        "position" : {"x": 6.75, "y": -2.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 1.000, "w":0.000}
+    },
+
+    "goal4" : {
+        "position" : {"x": -6.75, "y": -2.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.715, "w":0.669}
+    },        
+
+    "goal5" : {
+        "position" : {"x": -6.75, "y": 0.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.0, "w":1.0}
+    },        
+
+    "goal6" : {
+        "position" : {"x": 6.75, "y": 0.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.715, "w":0.669}
+    },
+
+    "goal7" : {
+        "position" : {"x": 6.75, "y": 1.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 1.0, "w":0.0}
+    },
+    "goal8" : {
+        "position" : {"x": -6.75, "y": 1.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.715, "w":0.669}
+    },
+    "goal9" : {
+        "position" : {"x": -6.75, "y": 3.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.0, "w":1.0}
+    },
+
+    "goal10" : {
+        "position" : {"x": 6.75, "y": 3.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.715, "w":0.669}
+    },
+    "goal11" : {
+        "position" : {"x": 6.75, "y": 4.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 1.0, "w":0.0}
+    },
+    "goal12" : {
+        "position" : {"x": -6.75, "y": 4.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": 0.0, "w":1.0}
+    },
+    "goal13" : {
+        "position" : {"x": -1.5, "y": 7.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": -0.715, "w":0.669}
+    },
+
+    "goal14" : {
+        "position" : {"x": -1.5, "y": -7.0, "z": 0},
+        "orientation" : {"x": 0, "y": 0, "z": -0.715, "w":0.669}
+    }
+}
