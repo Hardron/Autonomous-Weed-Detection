@@ -31,12 +31,14 @@ This project is submitted for the University of Lincoln CMP9767M Robot Programmi
 
 ## Solution
 <a href='/catkin_ws/src/autonomous_weeding/src/camera_parser.py'>Colour thresholding</a> is used to ensure the current scene is sufficiently green to call the vision pipeline.The camera stream image is then centre-cropped and used as input to a YOLOv3 CNN. This publishes a list of bounding boxes representing the location of objects belonging to one of 4 classes: 
-<li>
+<ul>
     <li>Crop</li>
     <li>Easy Weed</li>
     <li>Medium Weed</li>
-</li>
+</ul>
+
 A <a href='/catkin_ws/src/autonomous_weeding/src/transform_listener.py'>tf listener</a> then </a href='/catkin_ws/src/autonomous_weeding/src/vision_handler.py'>calculates the pose</a> of the camera and the spray within the map frame, the camera pose is stored in a list to which the sprayer's pose is compared, any time the positions match the spray service is executed.
+
 
 Navigation is accomplished through the move_base package via a custom <a href='/catkin_ws/src/autonomous_weeding/src/movebase_client.py'>client</a> that loads the user's desired goals from file.
 
@@ -72,13 +74,13 @@ Navigation is accomplished through the move_base package via a custom <a href='/
 ### Usage
 To run, simply execute the following 3 commands (in different terminals):
 1.  ```sh
-        roslaunch uol_cmp9767m_base thorvald-sim.launch map_server:=true fake_localisation:=true
+    roslaunch uol_cmp9767m_base thorvald-sim.launch map_server:=true fake_localisation:=true
     ```
 2.  ```sh
-        roslaunch uol_cmp9767m_tutorial move_base.launch 
+    roslaunch uol_cmp9767m_tutorial move_base.launch 
     ```
 3.  ```sh
-        roslaunch autonomous_weeding run_all.launch
+    roslaunch autonomous_weeding run_all.launch
     ```
 The first two launch files simply instantiate the Thorvald simulation environment and movebase client. The final launch initialises YOLOv3, and 3 custom nodes: <a href='/catkin_ws/src/autonomous_weeding/src/vision_handler.py'>vision_handler</a>, <a href='/catkin_ws/src/autonomous_weeding/src/camera_parser.py'>camera_paser</a> and <a href='/catkin_ws/src/autonomous_weeding/src/'>movebase_client_py</a>.
 
