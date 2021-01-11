@@ -7,15 +7,15 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-      <li><a href="#Chosen Area">Chosen Focus Area</a></li>
+      <li><a href="#Chosen-Area">Chosen Area</a></li>
     <li><a href="#Solution">Solution</a></li>
     <li>
-      <a href="#Getting Started">Getting Started</a>
+      <a href="#Getting-Started">Getting Started</a>
       <ul>
         <li><a href="#Prerequisites">Prerequisites</a></li>
         <li><a href="#Installation">Installation</a></li>
         <li><a href="#Usage">Usage</a></li>
-        <li><a href='#Changing Parameters'>Changing Parameters</a></li>
+        <li><a href='#Changing-Parameters'>Changing Parameters</a></li>
       </ul>
     </li>
   </ol>
