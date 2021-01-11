@@ -1,6 +1,7 @@
+<?xml version="1.0"?>
 <launch>
-<arg name="goal_file" default="$(find autonomous_weeding)/cfg/goals.json"/>
-<node pkg="autonomous_weeding" type="camera_parser.py" name="camera_parser"/>
-<node pkg="autonomous_weeding" type="vision_handler.py" name="vision_handler"/>
-<node pkg="autonomous_weeding" type="movebase_client.py" name="movebase_client_py" args="$(arg goal_file)"/>
+	<arg name="goal_file" default="$(find autonomous_weeding)/cfg/goals.json"/>
+	<node pkg="autonomous_weeding" type="camera_parser.py" name="camera_parser"/>
+	<node pkg="autonomous_weeding" type="vision_handler.py" name="vision_handler"/>
+	<node pkg="autonomous_weeding" type="movebase_client.py" name="movebase_client_py" args="$(arg goal_file)"/>
 </launch>
