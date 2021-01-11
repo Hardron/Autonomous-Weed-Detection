@@ -11,6 +11,7 @@ import actionlib
 import json
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 import re
+import sys
 
 class MovebaseClient():
     """
@@ -90,7 +91,12 @@ class MovebaseClient():
 
 
 try:
-    client = MovebaseClient('../cfg/goals.json')
-    client.goal_handler()
+    try:
+        path = sys.argv[1]
+        rospy.loginfo("Loading waypoints from " + str(path))
+        client = MovebaseClient(path)
+        client.goal_handler()
+    except IndexError as i:
+        rospy.logerr("Error, movebase_client expected a path to goal file!")    
 except rospy.ROSInterruptException:
     rospy.loginfo("Navigation test finished.")
