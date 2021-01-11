@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <launch>
+	<!--
 	<include file="$(find uol_cmp9767m_base)/launch/thorvald-sim.launch">
 		<arg name="fake_localisation" value="true"/>
 		<arg name="map_server" value="true"/>
 	</include>
 	<include file="$(find uol_cmp9767m_tutorial)/launch/move_base.launch"/>
+	-->
+	<include file="$(find darknet_ros)/launch/yolo_v3.launch"/>
 	<include file="$(find autonomous_weeding)/launch/autoweed.launch"/>
 </launch>
