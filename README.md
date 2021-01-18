@@ -49,7 +49,7 @@ Navigation is accomplished through the move_base package via a custom <a href='/
 <ol>
     <li>Ensure your system is running Ubuntu 18.04.05 with Python2, ROS and OpenCV installed</li>
     <li>It is strongly recommended that this code is run on a GPU with CUDA enabled.</li>
-    <li>Ensure the <a href="https://github.com/LCAS/CMP9767M">LCAS CMP9767M Ubuntu distribution is correclty installed</a> and the *uol_cmp9767m_base* and *uol_cmp9767m_tutorial* packages are installed.</li>        
+    <li>Ensure the <a href="https://github.com/LCAS/CMP9767M">LCAS CMP9767M Ubuntu distribution is correclty installed</a> and the <em>uol_cmp9767m_base</em> and <em>uol_cmp9767m_tutorial</em> packages are installed.</li>        
 </ol>
 
 ### Installation
