@@ -26,11 +26,11 @@ class CameraStreamParser():
         self.img_sub = rospy.Subscriber('thorvald_001/kinect2_camera/hd/image_color_rect', Image, self.camera_callback)
         
         #Centre-crop factors
-        self.height_factor = 2
-        self.width_factor = 1
+        self.height_factor = 1.4
+        self.width_factor = 1.4
 
         #Mean green colour threshold, as defined by empirical search
-        self.green_threshold = 46
+        self.green_threshold = 45.5
 
         #Cv bridge object for converting ROS messages
         self.bridge = CvBridge()
@@ -57,7 +57,12 @@ class CameraStreamParser():
         right = (width + roi_width)/2
         top = (height - roi_height)/2
         bottom  = (height + roi_height)/2
-        img_centre = img[left:right,top:bottom]
+
+        img_centre = img[top:bottom,left:right]
+        #img.setflags(write=1)
+        #img_mask = np.zeros((height,width), np.uint8)
+        #img_mask[top:bottom,left:right] = 1         
+        #img_centre = cv2.bitwise_and(img, img, mask=img_mask)
         return img_centre
     
     

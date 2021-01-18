@@ -44,8 +44,8 @@ class VisionHandler():
         #Link Positions on Model
         self.CAMERA_RELIATIVE_POSTION= 0.45
         self.SPRAYER_RELATIVE_POSITION = -0.45
-        self.SPRAY_LOCATION_LEEWAY = 0.01
-        self.SPRAY_LOCATION_LEEWAY_Y = 0.04
+        self.SPRAY_LOCATION_LEEWAY = 0.02
+        self.SPRAY_LOCATION_LEEWAY_Y = 0.06
         
         #Current base location
         self.curr_base_pose = PoseStamped()
