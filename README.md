@@ -30,17 +30,17 @@
 This project is submitted for the University of Lincoln CMP9767M Robot Programming module. The **chosen focus area is Perception** and as such the environment uses a static simulation, with realistic planting area and a single robot.
 
 ## Solution
-<a href='/catkin_ws/src/autonomous_weeding/src/camera_parser.py'>Colour thresholding</a> is used to ensure the current scene is sufficiently green to call the vision pipeline.The camera stream image is then centre-cropped and used as input to a YOLOv3 CNN. This publishes a list of bounding boxes representing the location of objects belonging to one of 4 classes: 
+<a href='/catkin_ws/src/autonomous_weeding/src/camera_parser.py'>Colour thresholding</a> is used to ensure the current scene is sufficiently green to call the vision pipeline.The camera stream image is then centre-cropped and used as input to a YOLOv3 CNN. This publishes a list of bounding boxes representing the location of objects belonging to classes: 
 <ul>
     <li>Crop</li>
     <li>Easy Weed</li>
     <li>Medium Weed</li>
+    <li>Hard Weed</li>
 </ul>
 
-A <a href='/catkin_ws/src/autonomous_weeding/src/transform_listener.py'>tf listener</a> then </a href='/catkin_ws/src/autonomous_weeding/src/vision_handler.py'>calculates the pose</a> of the camera and the spray within the map frame, the camera pose is stored in a list to which the sprayer's pose is compared, any time the positions match the spray service is executed.
+A <a href='/catkin_ws/src/autonomous_weeding/src/transform_listener.py'>tf listener</a> then <a href='/catkin_ws/src/autonomous_weeding/src/vision_handler.py'>calculates the pose</a> of the camera and the spray within the map frame, allowing the sprayer to spray when it passes over a previously seen weed.
 
-
-Navigation is accomplished through the move_base package via a custom <a href='/catkin_ws/src/autonomous_weeding/src/movebase_client.py'>client</a> that loads the user's desired goals from file.
+Navigation is accomplished through the move_base package via a custom <a href='/catkin_ws/src/autonomous_weeding/src/movebase_client.py'>client</a> that loads desired goals from file.
 
 <!-- GETTING STARTED -->
 ## Getting Started
