@@ -29,7 +29,6 @@ class MovebaseClient():
         """
         # Create an action client called "move_base" with action definition file "MoveBaseAction"
         self.client = actionlib.SimpleActionClient('move_base',MoveBaseAction)
-        rospy.init_node('movebase_client_py')
         self.queue = self.generate_queue(goal_file)
 
     def generate_queue(self, goal_file):
@@ -91,10 +90,11 @@ class MovebaseClient():
 
 
 try:
+    rospy.init_node('movebase_client_py')
     try:
         path = sys.argv[1]
-        rospy.loginfo("Loading waypoints from " + str(path))
         client = MovebaseClient(path)
+        rospy.loginfo("Loading waypoints from " + str(path))
         client.goal_handler()
     except IndexError as i:
         rospy.logerr("Error, movebase_client expected a path to goal file!")    

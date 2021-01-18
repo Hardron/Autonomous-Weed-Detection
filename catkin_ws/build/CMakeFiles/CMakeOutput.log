@@ -1,4 +1,4 @@
-The system is: Linux - 5.4.0-60-generic - x86_64
+The system is: Linux - 5.4.0-62-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/jack/Documents/agriforwa
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_749bf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_749bf.dir/build.make CMakeFiles/cmTC_749bf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_af0be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af0be.dir/build.make CMakeFiles/cmTC_af0be.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_749bf.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_749bf.dir/testCCompiler.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_749bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_749bf.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_749bf.dir/testCCompiler.c.o  -o cmTC_749bf 
+Building C object CMakeFiles/cmTC_af0be.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af0be.dir/testCCompiler.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_af0be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af0be.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af0be.dir/testCCompiler.c.o  -o cmTC_af0be 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2c6bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2c6bc.dir/build.make CMakeFiles/cmTC_2c6bc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2477d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2477d.dir/build.make CMakeFiles/cmTC_2477d.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_2c6bc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c6bc.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o  -o cmTC_2c6bc 
+Building C object CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2477d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2477d.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o  -o cmTC_2477d 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2c6bc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEedqPF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2c6bc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2c6bc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2477d' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEoPBAD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2477d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2477d' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2c6bc/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2c6bc.dir/build.make CMakeFiles/cmTC_2c6bc.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2477d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2477d.dir/build.make CMakeFiles/cmTC_2477d.dir/build]
   ignore line: [make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_2c6bc]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c6bc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o  -o cmTC_2c6bc ]
+  ignore line: [Building C object CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2477d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2477d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o  -o cmTC_2477d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2c6bc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEedqPF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2c6bc /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2477d' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEoPBAD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2477d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccEedqPF.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEoPBAD.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2c6bc] ==> ignore
+    arg [cmTC_2477d] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_2c6bc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2477d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9fd75/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9fd75.dir/build.make CMakeFiles/cmTC_9fd75.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9f6bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f6bb.dir/build.make CMakeFiles/cmTC_9f6bb.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9fd75.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_9fd75.dir/feature_tests.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9fd75
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fd75.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9fd75.dir/feature_tests.c.o  -o cmTC_9fd75 
+Building C object CMakeFiles/cmTC_9f6bb.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_9f6bb.dir/feature_tests.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9f6bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f6bb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9f6bb.dir/feature_tests.c.o  -o cmTC_9f6bb 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogrammi
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23847/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23847.dir/build.make CMakeFiles/cmTC_23847.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_72454/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72454.dir/build.make CMakeFiles/cmTC_72454.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23847.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_23847.dir/feature_tests.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_23847
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23847.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23847.dir/feature_tests.c.o  -o cmTC_23847 
+Building C object CMakeFiles/cmTC_72454.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_72454.dir/feature_tests.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_72454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72454.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_72454.dir/feature_tests.c.o  -o cmTC_72454 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogrammi
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_264f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_264f7.dir/build.make CMakeFiles/cmTC_264f7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a81d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a81d0.dir/build.make CMakeFiles/cmTC_a81d0.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_264f7.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_264f7.dir/feature_tests.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_264f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_264f7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_264f7.dir/feature_tests.c.o  -o cmTC_264f7 
+Building C object CMakeFiles/cmTC_a81d0.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a81d0.dir/feature_tests.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a81d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a81d0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a81d0.dir/feature_tests.c.o  -o cmTC_a81d0 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogrammi
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ada1f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ada1f.dir/build.make CMakeFiles/cmTC_ada1f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6c1b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c1b6.dir/build.make CMakeFiles/cmTC_6c1b6.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ada1f.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ada1f.dir/testCXXCompiler.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ada1f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ada1f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ada1f.dir/testCXXCompiler.cxx.o  -o cmTC_ada1f 
+Building CXX object CMakeFiles/cmTC_6c1b6.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_6c1b6.dir/testCXXCompiler.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6c1b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c1b6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6c1b6.dir/testCXXCompiler.cxx.o  -o cmTC_6c1b6 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ba12/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2ba12.dir/build.make CMakeFiles/cmTC_2ba12.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e669c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e669c.dir/build.make CMakeFiles/cmTC_e669c.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2ba12
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ba12.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2ba12 
+Building CXX object CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e669c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e669c.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e669c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2ba12' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4zVPoc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2ba12 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2ba12' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e669c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpSMylb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e669c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e669c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2ba12/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2ba12.dir/build.make CMakeFiles/cmTC_2ba12.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e669c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e669c.dir/build.make CMakeFiles/cmTC_e669c.dir/build]
   ignore line: [make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2ba12]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ba12.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2ba12 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e669c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e669c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e669c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2ba12' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4zVPoc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2ba12 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e669c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpSMylb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e669c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4zVPoc.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpSMylb.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2ba12] ==> ignore
+    arg [cmTC_e669c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_2ba12.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e669c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f48ac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f48ac.dir/build.make CMakeFiles/cmTC_f48ac.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_04804/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04804.dir/build.make CMakeFiles/cmTC_04804.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f48ac.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f48ac.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f48ac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f48ac.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f48ac.dir/feature_tests.cxx.o  -o cmTC_f48ac 
+Building CXX object CMakeFiles/cmTC_04804.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_04804.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_04804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04804.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_04804.dir/feature_tests.cxx.o  -o cmTC_04804 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogrammi
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_276f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_276f6.dir/build.make CMakeFiles/cmTC_276f6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4a09a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a09a.dir/build.make CMakeFiles/cmTC_4a09a.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_276f6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_276f6.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_276f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_276f6.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_276f6.dir/feature_tests.cxx.o  -o cmTC_276f6 
+Building CXX object CMakeFiles/cmTC_4a09a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4a09a.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4a09a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a09a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4a09a.dir/feature_tests.cxx.o  -o cmTC_4a09a 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogrammi
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37dcc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37dcc.dir/build.make CMakeFiles/cmTC_37dcc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8ef2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ef2d.dir/build.make CMakeFiles/cmTC_8ef2d.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_37dcc.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_37dcc.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_37dcc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37dcc.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_37dcc.dir/feature_tests.cxx.o  -o cmTC_37dcc 
+Building CXX object CMakeFiles/cmTC_8ef2d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8ef2d.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8ef2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ef2d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_8ef2d.dir/feature_tests.cxx.o  -o cmTC_8ef2d 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogrammi
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_308fa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_308fa.dir/build.make CMakeFiles/cmTC_308fa.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a6bc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6bc3.dir/build.make CMakeFiles/cmTC_a6bc3.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_308fa.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_308fa.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_308fa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_308fa.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_308fa.dir/feature_tests.cxx.o  -o cmTC_308fa 
+Building CXX object CMakeFiles/cmTC_a6bc3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a6bc3.dir/feature_tests.cxx.o -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a6bc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6bc3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a6bc3.dir/feature_tests.cxx.o  -o cmTC_a6bc3 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -634,112 +634,112 @@ make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogrammi
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eba09/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eba09.dir/build.make CMakeFiles/cmTC_eba09.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_42cba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42cba.dir/build.make CMakeFiles/cmTC_42cba.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eba09.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_eba09.dir/CheckIncludeFile.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_eba09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eba09.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eba09.dir/CheckIncludeFile.c.o  -o cmTC_eba09 
+Building C object CMakeFiles/cmTC_42cba.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_42cba.dir/CheckIncludeFile.c.o   -c /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_42cba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42cba.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_42cba.dir/CheckIncludeFile.c.o  -o cmTC_42cba 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dec83/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dec83.dir/build.make CMakeFiles/cmTC_dec83.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4b8c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b8c8.dir/build.make CMakeFiles/cmTC_4b8c8.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dec83.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dec83.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_dec83
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec83.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dec83.dir/CheckFunctionExists.c.o  -o cmTC_dec83 -lpthread 
+Building C object CMakeFiles/cmTC_4b8c8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4b8c8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4b8c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8c8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4b8c8.dir/CheckFunctionExists.c.o  -o cmTC_4b8c8 -lpthread 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_421fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_421fd.dir/build.make CMakeFiles/cmTC_421fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f9a34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9a34.dir/build.make CMakeFiles/cmTC_f9a34.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_421fd.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_421fd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_421fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_421fd.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_421fd.dir/CheckFunctionExists.c.o  -o cmTC_421fd /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+Building C object CMakeFiles/cmTC_f9a34.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_f9a34.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f9a34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a34.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_f9a34.dir/CheckFunctionExists.c.o  -o cmTC_f9a34 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b735/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b735.dir/build.make CMakeFiles/cmTC_3b735.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8a9c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a9c3.dir/build.make CMakeFiles/cmTC_8a9c3.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3b735.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_3b735.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3b735
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b735.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_3b735.dir/CheckFunctionExists.c.o  -o cmTC_3b735 
+Building C object CMakeFiles/cmTC_8a9c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_8a9c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8a9c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a9c3.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_8a9c3.dir/CheckFunctionExists.c.o  -o cmTC_8a9c3 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_004a8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_004a8.dir/build.make CMakeFiles/cmTC_004a8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_49f53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49f53.dir/build.make CMakeFiles/cmTC_49f53.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_004a8.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_004a8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_004a8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_004a8.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_004a8.dir/CheckFunctionExists.c.o  -o cmTC_004a8 
+Building C object CMakeFiles/cmTC_49f53.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_49f53.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49f53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f53.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_49f53.dir/CheckFunctionExists.c.o  -o cmTC_49f53 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2488/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2488.dir/build.make CMakeFiles/cmTC_f2488.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4cbf2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cbf2.dir/build.make CMakeFiles/cmTC_4cbf2.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2488.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_f2488.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f2488
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2488.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_f2488.dir/CheckFunctionExists.c.o  -o cmTC_f2488 
+Building C object CMakeFiles/cmTC_4cbf2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_4cbf2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4cbf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cbf2.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_4cbf2.dir/CheckFunctionExists.c.o  -o cmTC_4cbf2 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_20ef2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_20ef2.dir/build.make CMakeFiles/cmTC_20ef2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_83141/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83141.dir/build.make CMakeFiles/cmTC_83141.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_20ef2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_20ef2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_20ef2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20ef2.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_20ef2.dir/CheckFunctionExists.c.o  -o cmTC_20ef2 
+Building C object CMakeFiles/cmTC_83141.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_83141.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83141
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83141.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_83141.dir/CheckFunctionExists.c.o  -o cmTC_83141 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b3aca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b3aca.dir/build.make CMakeFiles/cmTC_b3aca.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_99677/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99677.dir/build.make CMakeFiles/cmTC_99677.dir/build
 make[1]: Entering directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3aca.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_b3aca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b3aca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3aca.dir/link.txt --verbose=1
-/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_b3aca.dir/CheckFunctionExists.c.o  -o cmTC_b3aca -lICE 
+Building C object CMakeFiles/cmTC_99677.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_99677.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_99677
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99677.dir/link.txt --verbose=1
+/usr/bin/cc -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_99677.dir/CheckFunctionExists.c.o  -o cmTC_99677 -lICE 
 make[1]: Leaving directory '/home/jack/Documents/agriforwards/msc/robotprogramming/Autonomous-Weed-Detection/Autonomous-Weed-Detection/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
