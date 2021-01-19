@@ -27,7 +27,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Chosen Area
-This project is submitted for the University of Lincoln CMP9767M Robot Programming module. The **chosen focus area is Perception** and as such the environment uses a static simulation, with realistic planting area and a single robot.
+This project is submitted for the University of Lincoln CMP9767M Robot Programming module. The **chosen focus area is Perception** and as such the environment uses a static simulation, with realistic planting area and a single robot. The github page can be found <a href="https://github.com/Jack742/Autonomous-Weed-Detection">here</a>.
 
 ## Solution
 <a href='/catkin_ws/src/autonomous_weeding/src/camera_parser.py'>Colour thresholding</a> is used to ensure the current scene is sufficiently green to call the vision pipeline.The camera stream image is then centre-cropped and used as input to a YOLOv3 CNN. This publishes a list of bounding boxes representing the location of objects belonging to classes: 
@@ -60,14 +60,15 @@ Navigation is accomplished through the move_base package via a custom <a href='/
    git clone git@github.com:Jack742/Autonomous-Weed-Detection.git
    ```
 2. Navigate to Autonomous-Weed-Detection/catkin_ws
-3. There should only be the src directory. Delete Build and Devel if they are present.
+3. There should only be the src directory. Delete Build and Devel if they are present
 4. If you are **not** using a CUDA GPU, you must set GPU=0 inside catkin_ws/src/darknet_ros/darknet
-5. Run catkin_make from the catkin_ws directory
-6. Source the package 
+5. If you would like to use the pretrained weights for the network, please download them using git LFS </a href="https://github.com/Jack742/Autonomous-Weed-Detection/blob/main/catkin_ws/src/darknet_ros/darknet_ros/yolo_network_config/weights/yolov3_custom_train_5000.weights">here</a>
+6. Run catkin_make from the catkin_ws directory
+7. Source the package 
     ```sh
     source devel/setup.bash
     ```
-7. Alternatively, setup.bash to your ~/.bashrc
+8. Alternatively, setup.bash to your ~/.bashrc
 
 
 <!-- USAGE EXAMPLES -->
