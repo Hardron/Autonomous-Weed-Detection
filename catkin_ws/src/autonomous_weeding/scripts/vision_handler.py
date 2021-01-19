@@ -45,7 +45,7 @@ class VisionHandler():
         self.CAMERA_RELIATIVE_POSTION= 0.45
         self.SPRAYER_RELATIVE_POSITION = -0.45
         self.SPRAY_LOCATION_LEEWAY = 0.02
-        self.SPRAY_LOCATION_LEEWAY_Y = 0.06
+        self.SPRAY_LOCATION_LEEWAY_Y = 0.05
         
         #Current base location
         self.curr_base_pose = PoseStamped()
@@ -59,7 +59,8 @@ class VisionHandler():
 
         #vision callback rate limiter variables
         self.callback_count = 0
-        self.callback_interval = 2
+        self.callback_interval = 5
+        self.max_queue_length = 150
         self.queue = []
 
         self.spray = rospy.ServiceProxy("thorvald_001/spray", Empty)
@@ -85,6 +86,8 @@ class VisionHandler():
         Checks for the presence of weeds
         |boxes : List of bounding boxes
         """
+        if len(self.queue) > self.max_queue_length:
+            self.queue.pop(0)
         for each in boxes:            
             #Check if object is a weed
             if each.Class in self.weed_classes:
@@ -103,10 +106,10 @@ class VisionHandler():
         #For each weed we've seen, 
         for idx,weed_loc in enumerate(self.queue):
             #check if the spray is at roughly the same location as a weed
-            if (abs(sprayx-weed_loc.pose.position.x)<self.SPRAY_LOCATION_LEEWAY and abs(sprayy-weed_loc.pose.position.y)<self.SPRAY_LOCATION_LEEWAY_Y):
+            if (abs(sprayx-weed_loc.pose.position.x)<self.SPRAY_LOCATION_LEEWAY) and (abs(sprayy-weed_loc.pose.position.y)<self.SPRAY_LOCATION_LEEWAY_Y):
                 #Then spray and remove weed from list
-                self.call_spray()
                 self.queue.pop(idx)
+                self.call_spray()
 
 
     def vision_callback(self, data):

@@ -30,7 +30,7 @@ class CameraStreamParser():
         self.width_factor = 1.4
 
         #Mean green colour threshold, as defined by empirical search
-        self.green_threshold = 45.5
+        self.green_threshold = 36
 
         #Cv bridge object for converting ROS messages
         self.bridge = CvBridge()
@@ -86,7 +86,8 @@ class CameraStreamParser():
         #Check if it meets the green threshold
         if self.mean_colour_check(raw_img):
             #Centre crop
-            im2pub = self.centre_crop(raw_img, int(height/self.height_factor), int(width/self.width_factor))
+            #im2pub = self.centre_crop(raw_img, int(height/self.height_factor), int(width/self.width_factor))
+            im2pub = raw_img
             #Publish
             self.publish(im2pub)     
 
